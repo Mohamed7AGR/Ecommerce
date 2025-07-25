@@ -17,17 +17,17 @@ export default function Cart() {
   return (
     <div className="container mx-auto p-5">
       <h1 className="text-3xl font-bold text-center mb-3">Cart Page</h1>
-      
-        <h2 className="text-xl text-main font-bold mb-3 ">
-          ToTal Cart Price : {totalCartPrice}
-        </h2>
+
+      <h2 className="text-xl text-main font-bold mb-3 ">
+        ToTal Cart Price : {totalCartPrice}
+      </h2>
       <div className="flex items-center justify-between mb-3">
         <Link
-            to={"/checkOut"}
-            className="bg-blue-500 p-3 rounded-lg hover:bg-blue-800 duration-500 text-white"
-          >
-            Check Out
-          </Link>
+          to={"/checkOut"}
+          className="bg-blue-500 p-3 rounded-lg hover:bg-blue-800 duration-500 text-white"
+        >
+          Check Out
+        </Link>
         <button
           onClick={handelRemoveAllCart}
           className="font-medium bg-red-600 p-2 rounded-lg  text-white hover:bg-red-900"
@@ -161,9 +161,7 @@ export default function Cart() {
             ))}
           </tbody>
         </table>
-        
       </div>
-     
     </div>
   );
 }

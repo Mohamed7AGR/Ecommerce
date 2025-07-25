@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Loading from "../Loading/Loading";
-import useCategories from "../../CustomHooks/usecategories";
+import useCategories from "../../CustomHooks/useCategories.js";
 
 export default function CategorySlider() {
 
